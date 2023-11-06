@@ -31,6 +31,34 @@ body {
 .nav-bg {
     background-color: var(--secundario);
 }
+
 .navegacion-principal {
-    background-color: var(--secundario);
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+
+@media (min-width: 560px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 768px){
+    body {
+        background-color: cornflowerblue;
+    }
+}
+
 }
